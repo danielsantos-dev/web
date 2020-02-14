@@ -1,0 +1,40 @@
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #DCDCDC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E8E8E8, 	#DCDCDC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E8E8E8, 	#DCDCDC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    //box-shadow: -5px -3px 20px #888888;
+    border-bottom: 1px solid #BEBEBE;
+    z-index: 99998;
+    height:50px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: 	#0a1f2c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: .56;
+    transition: 0.5s ease-out;
+  }
+  
+  li a:hover {
+    color: #0a1f2c;
+    opacity: .80;
+  }
+  
+  //color pallete:       light blue: #82CAFA;   hard brown midnight: #000044; hoover hard brow: #003366;  3087B4 143D55 287AA9 7E9234 96AD3E CCCCCC
